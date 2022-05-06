@@ -1,0 +1,202 @@
+/* Font faces */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+/* End of font faces */
+
+:root {
+    --background: rgb(231, 229, 229);
+    --background-2: rgb(139, 177, 242);
+    --background-3: rgb(118, 136, 238);
+    --text: rgb(107, 106, 106);
+    --text-harga: rgb(255, 109, 109);
+    --text-2: rgb(63, 81, 218);
+    --text-3: rgb(129, 129, 236);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+    color: var(--text);
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: bold;
+}
+
+html,
+body {
+    background: var(--background);
+}
+
+* {
+    margin: 0;
+    padding: 0; 
+}
+
+#back a {
+    text-decoration: none;
+}
+
+.bar {
+    margin-left: 3%;
+}
+
+.bar2 {
+    margin-left: 85%;
+}
+
+#acc {
+    padding-top: 8vh;
+}
+
+.card-acc {
+    /* padding: 5vh; */
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px 5px #7EC8E3 !important;
+    box-shadow: -5px 0px 20px 15px #8000ff50 !important;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#acc-container {
+    padding: 30px;
+}
+
+.acc-img-1 {
+    width: 90%;
+    position: absolute;
+    bottom: 0;
+}
+
+.acc-img-2 {
+    width: 100%;
+    position: absolute;
+    /* bottom: 0; */
+}
+
+.acc-bg {
+    /* background: linear-gradient(to right, #299BFF , #0238E1); */
+    border-radius: 10px 0 0 10px;
+    position: relative;
+}
+
+.acc-title {
+    text-align: center;
+}
+
+.acc-bg .acc-title {
+    color: #000C66;
+}
+
+.acc-underline {
+    background-color: #000C66;
+    opacity: 100%;
+}
+
+.acc-form {
+    text-align: center;
+}
+
+.acc-form h2,
+.acc-form h5 {
+    color: #000C66 !important;
+}
+
+.acc-label {
+    font-size: medium;
+    font-weight: bold;
+    text-align: left;
+}
+
+.acc-input {
+    border: unset;
+    /* margin: 0;
+    padding: 0; */
+    width: 100%;
+    color: #000C66 !important;
+    font-size: larger;
+    font-weight: bold;
+    text-align: left;
+}
+
+input.acc-input:focus {
+    background-color: unset;
+    outline: 0;
+    text-align: left;
+}
+
+.acc-input-hr {
+    background-color: #000C66;
+    opacity: 100%;
+    margin: 0;
+}
+
+.form-check {
+    text-align: left;
+}
+
+.form-check input {
+    border: 1px solid #000C66;
+}
+
+.form-check-input:checked {
+    background-color: #000C66;
+    border-color: #6600FF;
+}
+
+.form-check label {
+    color: #000C66;
+    font-weight: bold;
+}
+
+.form-control {
+    color: #000C66;
+    border: 1px solid #000C66;
+    font-weight: bold;
+}
+
+.form-control:focus {
+    color: #000C66;
+    border: 1px solid #000C66;
+}
+
+.form-floating>label {
+    color: #000C66;
+    font-weight: bold;
+}
+
+.acc-btn-login {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+.acc-link {
+    color: #000C66;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+    transition: .3s;
+}
+
+.acc-link:hover {
+    color: #0000FF;
+    transition: .3s;
+}
+
+.acc-link-hr {
+    width: 25%;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 100%;
+    background-color: #000C66;
+}

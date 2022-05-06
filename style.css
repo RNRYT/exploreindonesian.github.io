@@ -1,0 +1,88 @@
+/* Font faces */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+/* End of font faces */
+
+/* root */
+:root {
+    --background: rgb(231, 229, 229);
+    --background-2: rgb(139, 177, 242);
+    --background-3: rgb(118, 136, 238);
+    /* text */
+    --text: rgb(107, 106, 106);
+    --text-harga: rgb(255, 109, 109);
+    --text-2: rgb(63, 81, 218);
+    --text-3: rgb(129, 129, 236);
+}
+
+/* other */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+    color: var(--text);
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: bold;
+}
+
+html,
+body {
+    background: var(--background);
+}
+
+* {
+    margin: 0;
+    padding: 0; 
+}
+
+.bar {
+    margin-left: 3%;
+}
+
+.bar2 {
+    margin-left: 85%;
+}
+
+
+/* navbar */
+
+#navbar .brand a {
+    font-family: serif;
+    font-weight: bolder;
+    font-size: 24px;
+}
+#navbar a {
+    color: var(--text);
+}
+
+#navbar a:hover{
+    color: var(--text-3);
+}
+
+#navbar2 img {
+    width: 60px;
+    border-radius: 40px;
+}
+
+#navbar2 .container {
+    justify-content: end;
+}
+
+#navbar2 .profile {
+    margin-top: 16px;   
+    font-size: 19px; 
+}
+
+#navbar2 a {
+    text-decoration: none;
+}
