@@ -37,52 +37,51 @@ a {
 
 html,
 body {
-    background: var(--background);
+    background: linear-gradient(
+        to right, rgb(180, 179, 179),
+        #b9b8b8, rgb(227, 225, 225));
+    animation: animate-background 10s infinite ease-in-out; 
 }
 
-* {
+* { 
     margin: 0;
     padding: 0; 
 }
 
-.bar {
-    margin-left: 3%;
+#opentext {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    overflow: hidden;
+    background: rgb(165, 165, 165);
 }
 
-.bar2 {
-    margin-left: 85%;
+#opentext h3 {
+    font-size: 35px;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-
-/* navbar */
-
-#navbar .brand a {
-    font-family: serif;
-    font-weight: bolder;
-    font-size: 24px;
-}
-#navbar a {
-    color: var(--text);
+/* header */
+#header {
+    margin-top: 8%;
 }
 
-#navbar a:hover{
-    color: var(--text-3);
+#header h1 {
+    margin-top: 13%;
+    color: rgb(218, 88, 88);
 }
 
-#navbar2 img {
-    width: 60px;
-    border-radius: 40px;
+#header h5 {
+    color: #fff;
 }
 
-#navbar2 .container {
-    justify-content: end;
+#header img {
+    border-radius: 12px;
 }
 
-#navbar2 .profile {
-    margin-top: 16px;   
-    font-size: 19px; 
+#header p {
+    font-size: 20px;
+    margin-top: 5px;
+    color: rgb(255, 255, 255);
 }
 
-#navbar2 a {
-    text-decoration: none;
-}
