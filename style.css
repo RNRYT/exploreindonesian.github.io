@@ -40,6 +40,19 @@ body {
     background: var(--background);
 }
 
+a {
+    text-decoration: none;    
+}
+
+
+.btnhvr {
+    color: #fff;
+}
+
+.btnhvr:hover {
+    color: rgb(144, 67, 207);
+}
+
 * { 
     margin: 0;
     padding: 0; 
@@ -76,6 +89,33 @@ body {
     color: #fff;
     font-family: candara;
 }
+
+.lebih-lanjut {
+    margin-top: 15px;
+    background: rgb(175, 98, 98);
+    padding: 10px 10px;
+    color: #fff;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.lebih-lanjut:hover {
+    margin-left: 4%;
+    transition: 0.4s;
+    color: #fff;
+}
+
+.container-1 {
+    max-width: 900px;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slider .slick-slide img {
+    width: 100%;
+}
+
 
 /* header */
 #header {
@@ -114,7 +154,7 @@ body {
     margin-left: 55px;
     margin-top: 5px;
     font-size: 20px;
-}
+}   
 
 #candi h1 {
     margin-top: 17%;
@@ -126,36 +166,150 @@ body {
     font-size: 18px;
     margin-top: 8px;
     color: rgb(218, 88, 88);
+    text-decoration: none;
+}
+
+#candi .location:hover {
+    transition: 0.4s;
+    margin-left: 5%;
 }
 
 #candi .content{
     font-size: 17px;
-    font-family: calibri;
+    font-family: Arial, Helvetica, sans-serif;
     color: #000;
 }
 
 #candi .wisatawan {
     font-size: 17px;
-    font-family: calibri;
+    font-family: Arial, Helvetica, sans-serif;
     color :#000;
 }
 
 #candi .penjelasan {
     font-size: 17px;
-    font-family: calibri;
+    font-family: Arial, Helvetica, sans-serif;
     color: #000;
 }
+    
 
-#candi a {
-    margin-top: 15px;
-    background: rgb(175, 98, 98);
-    padding: 10px 10px;
-    color: #fff;
-    border-radius: 10px;
+/* danau toba */
+#danau {
+    margin-top: 15%;
+}
+
+#danau img {
+    border-radius: 12px;
+    margin-top: 15%;
+}
+
+#danau .deskripsi-2 {
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+#danau h1 {
+    margin-top: 17%;
+    font-size: 35px;
+}
+
+#danau .location-2 {
+    font-size: 18px;
+    margin-top: 8px;
+    color: rgb(218, 88, 88);
     text-decoration: none;
 }
 
-#candi a:hover {
-    padding: 12px 10px;
+#danau .location-2:hover {
+    margin-left: 4%;
     transition: 0.4s;
 }
+
+#danau .content-2 {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    margin-top: 5px;
+}
+
+#danau .informasi {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+}
+
+#danau .penjelasan-2 {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+}
+
+/* bromo */
+#bromo {
+    margin-top: 15%;
+}
+
+#bromo img {
+    border-radius: 12px;
+    margin-top: 15%;
+}
+
+#bromo .deskripsi {
+    margin-top: 5px;
+    font-size: 20px;
+    margin-left: 55px;  
+}
+
+#bromo h1 {
+    margin-top: 17%;
+    font-size: 35px;
+}
+
+#bromo .location {
+    font-size: 18px;
+    margin-top: 8px;
+    color: rgb(218, 88, 88);
+    text-decoration: none;
+}
+
+#bromo .location:hover {
+    margin-left: 4%;
+    transition: 0.4s;
+}
+
+#bromo .content {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    margin-top: 5px;
+}
+
+#bromo .informasi {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+}
+
+#bromo .penjelasan {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+}
+
+/* footer */
+footer {
+    background: rgb(175, 91, 91);
+}
+
+footer h6,
+p,
+li,
+a {
+    color: #fff;
+}
+
+footer a:hover {
+    color: rgb(144, 67, 207);  
+}
+
+
